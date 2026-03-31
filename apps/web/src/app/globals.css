@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Font Variables */
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-poppins: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-roboto: 'Roboto', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Typography Utilities */
+.font-heading {
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-roboto), system-ui, -apple-system, sans-serif;
+}
+
+/* Enhanced Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-roboto), system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Text improvements */
+.text-readable {
+  font-family: var(--font-roboto), system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.text-impact {
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.text-clean {
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+}

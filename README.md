@@ -13,48 +13,6 @@ A modern, responsive, and professional website for FIBS Driving and Technical Co
 - **Accessibility**: WCAG compliant with semantic HTML
 
 ### Pages
-1. **Home Page**: Hero section, featured courses, testimonials, news preview
-2. **About Page**: College history, vision & mission, facilities, director's message
-3. **Courses Page**: Department-wise course listings with search and filtering
-4. **Online Application**: Complete application form with file upload
-5. **Gallery Page**: Image grid with modal preview functionality
-6. **News & Announcements**: Dynamic news feed with admin posting capability
-7. **Contact Page**: Google Maps integration, contact form, location details
-
-### Admin Dashboard
-- **Authentication**: Secure login system
-- **Course Management**: Add, edit, delete courses
-- **Application Management**: View and manage student applications
-- **Announcement Management**: Post and manage news/announcements
-- **Gallery Management**: Upload and manage gallery images
-
-### Backend
-- **RESTful APIs**: Complete CRUD operations for all entities
-- **Database Integration**: PostgreSQL with Sequelize ORM
-- **File Upload**: Secure file handling for applications and gallery
-- **Form Validation**: Client-side and server-side validation
-- **Error Handling**: Comprehensive error handling and user feedback
-
-## 🛠 Tech Stack
-
-### Frontend
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-
-### Backend
-- **Runtime**: Node.js
-- **Database**: PostgreSQL
-- **ORM**: Sequelize
-- **Authentication**: bcryptjs, jsonwebtoken
-- **File Upload**: Multer
-
-## 📋 Prerequisites
-
-- Node.js 18+ 
-- PostgreSQL 12+
 - npm or yarn
 
 ## 🚀 Installation
