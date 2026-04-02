@@ -1,0 +1,29 @@
+[
+  {
+    "id": "branch-1",
+    "name": "FIBS Eldoret Campus",
+    "code": "ELD001",
+    "location": "Eldoret Town, Kenya",
+    "phoneNumber": "+254 712 345 678",
+    "branchManager": "John Kamau",
+    "isActive": true
+  },
+  {
+    "id": "branch-2",
+    "name": "FIBS Nairobi Campus",
+    "code": "NBI001",
+    "location": "Nairobi CBD, Kenya",
+    "phoneNumber": "+254 723 456 789",
+    "branchManager": "Mary Wanjiru",
+    "isActive": true
+  },
+  {
+    "id": "branch-3",
+    "name": "FIBS Kisumu Campus",
+    "code": "KSM001",
+    "location": "Kisumu Town, Kenya",
+    "phoneNumber": "+254 734 567 890",
+    "branchManager": "David Ochieng",
+    "isActive": true
+  }
+]

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Poppins, Roboto } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import AdminClientLayout from "./AdminClientLayout";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,13 +12,6 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--font-poppins",
-  display: "swap",
-});
-
-const roboto = Roboto({
-  weight: ["300", "400", "500", "700"],
-  subsets: ["latin"],
-  variable: "--font-roboto",
   display: "swap",
 });
 
@@ -36,10 +28,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${poppins.variable} ${roboto.variable}`}
+      className={`${inter.variable} ${poppins.variable}`}
     >
       <body className="min-h-full flex flex-col font-sans antialiased bg-background text-foreground">
-        <AdminClientLayout>{children}</AdminClientLayout>
+        {children}
       </body>
     </html>
   );

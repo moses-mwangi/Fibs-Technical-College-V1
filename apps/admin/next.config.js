@@ -1,15 +1,30 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  output: 'standalone',
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
+        protocol: "https",
+        hostname: "images.unsplash.com",
       },
     ],
   },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "@": "./src",
+      "@components": "./src/components",
+      "@lib": "./src/lib",
+      "@utils": "./src/utils",
+      "@types": "./src/types",
+      "@app": "./src/app",
+      "@assets": "./src/assets",
+      public: "../../public",
+    };
+    return config;
+  },
+  turbopack: {},
+  
 };
 
 module.exports = nextConfig;

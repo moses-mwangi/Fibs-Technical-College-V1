@@ -1,0 +1,46 @@
+[
+  {
+    "id": "user-1",
+    "email": "superadmin@fibscollege.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LrUpm",
+    "firstName": "Super",
+    "lastName": "Admin",
+    "role": "super_admin",
+    "branchId": null,
+    "phoneNumber": "+254 700 000 001",
+    "isActive": true
+  },
+  {
+    "id": "user-2",
+    "email": "eldoretadmin@fibscollege.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LrUpm",
+    "firstName": "Eldoret",
+    "lastName": "Admin",
+    "role": "branch_admin",
+    "branchId": "branch-1",
+    "phoneNumber": "+254 700 000 002",
+    "isActive": true
+  },
+  {
+    "id": "user-3",
+    "email": "lecturer@fibscollege.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LrUpm",
+    "firstName": "James",
+    "lastName": "Muriuki",
+    "role": "lecturer",
+    "branchId": "branch-1",
+    "phoneNumber": "+254 700 000 003",
+    "isActive": true
+  },
+  {
+    "id": "user-4",
+    "email": "accounts@fibscollege.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj6ukx.LrUpm",
+    "firstName": "Grace",
+    "lastName": "Wanjala",
+    "role": "accountant",
+    "branchId": "branch-1",
+    "phoneNumber": "+254 700 000 004",
+    "isActive": true
+  }
+]

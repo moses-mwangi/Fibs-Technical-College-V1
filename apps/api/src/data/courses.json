@@ -1,0 +1,68 @@
+[
+  {
+    "id": "course-1",
+    "name": "ICT",
+    "code": "ICT001",
+    "description": "Information and Communication Technology course covering programming, networking, and database management",
+    "duration": "12 months",
+    "branchId": "branch-1",
+    "lecturerId": "staff-1",
+    "fees": 45000.00,
+    "isActive": true
+  },
+  {
+    "id": "course-2",
+    "name": "Driving",
+    "code": "DRV001",
+    "description": "Professional driving course with practical and theoretical training",
+    "duration": "3 months",
+    "branchId": "branch-1",
+    "lecturerId": "staff-2",
+    "fees": 15000.00,
+    "isActive": true
+  },
+  {
+    "id": "course-3",
+    "name": "Electrical Engineering",
+    "code": "ELE001",
+    "description": "Comprehensive electrical engineering course with hands-on training",
+    "duration": "18 months",
+    "branchId": "branch-2",
+    "lecturerId": "staff-3",
+    "fees": 55000.00,
+    "isActive": true
+  },
+  {
+    "id": "course-4",
+    "name": "Plumbing",
+    "code": "PLB001",
+    "description": "Professional plumbing installation and maintenance course",
+    "duration": "6 months",
+    "branchId": "branch-2",
+    "lecturerId": "staff-4",
+    "fees": 25000.00,
+    "isActive": true
+  },
+  {
+    "id": "course-5",
+    "name": "Business Management",
+    "code": "BSM001",
+    "description": "Business management and entrepreneurship course",
+    "duration": "9 months",
+    "branchId": "branch-3",
+    "lecturerId": "staff-5",
+    "fees": 35000.00,
+    "isActive": true
+  },
+  {
+    "id": "course-6",
+    "name": "Computer Packages",
+    "code": "CPT001",
+    "description": "Basic computer packages including MS Office and internet skills",
+    "duration": "2 months",
+    "branchId": "branch-3",
+    "lecturerId": "staff-6",
+    "fees": 8000.00,
+    "isActive": true
+  }
+]

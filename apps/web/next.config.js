@@ -23,6 +23,7 @@ const config = {
     };
     return config;
   },
+  turbopack: {},
 };
 
 module.exports = config;
